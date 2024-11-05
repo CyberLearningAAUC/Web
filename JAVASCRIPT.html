@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>JAVASCRIPT</title>
+        <script src="Index.js"></script>
+        <link rel="stylesheet" href="JAVASCRIPT.css">
+        <link rel="icon" href="iconoJAVASCRIPT.ico">
+    </head>
+    <body onload="PlayAudio()" onclick="PlayAudio()">
+        <div class="MenúCon">
+            <div class="Menú" id="Menú">
+                <br><br><br>
+                <div class="Botones">
+                    <a href="Formulario de ingreso.html" target="_blank">
+                        <button class="Acceder botón">Acceder</button>
+                    </a>
+                </div>
+                <div class="Botones2">
+                    <button class="botón5" onclick="toggleOptions()"> Acceso rapido </button>
+                </div>
+                <div class="Botones3">
+                    <a href="TablaForJAVASCRIPT.html">
+                        <button class="BTB"> Resumen </button>
+                    </a>
+                </div>
+                <div class="Botones4">
+                    <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank">
+                        <button class="Wikir"> Wiki </button>
+                    </a>
+                </div>
+                <div id="options" class="element_options" style="display: none;">
+                    <a href="Principal.html">Principal</a>
+                    <a href="HTML.html">Html</a>
+                    <a href="CSS.html">Css</a>
+                    <a href="PHP.html">Php</a>
+                </div>
+            </div>
+        </div>
+        <div class="LateralBAR">
+            <center>
+                <a href="JAVASCRIPT.html"><img src="ReloadIMG.png" class="Reload imgLatBar"></a>
+                <a href="Principal.html"><img src="iconoINICIO.png" class="imgLatBar"></a><br>
+                <div class="line1"></div>
+                <a href="#"><img src="Pausa1.png" class="imgLatBar Pausa Pausa1" id="Pausa1"></a>
+                <a href="#"><img src="Pausa2.png" class="imgLatBar Pausa Pausa2" id="Pausa2"></a>
+                <a href="#"><img src="botónQuitarMUSICA.png" class="imgLatBar StopMUSIC" id="QuitMUSIC"></a>
+                <a href="#"><img src="IconoVOLUMEN.png" class="imgLatBar Volumen" id="Volumen"></a>
+                <a href="#"><img src="ChangeVOLUMEN.png" class="imgLatBar ChangeVolumen" id="ChangeVolumen"></a>
+            </center>
+        </div>
+        <div class="late" onclick="HideOptions()" onmouseover="TransitionSound(event)" onmouseout="TransitionSoundOut(event)">
+            <center>
+                <a href="Principal.html">
+                    <button class="botnon">
+                        Volver
+                    </button>
+                </a>
+            </center>
+            <img src="VOLVER.png" ID="VOLVESHION" class="inline1">
+        </div>
+        <div class="containerMain" onclick="HideOptions()">
+            <div class="Concept común" id="main">
+                <h1>JAVASCRIPT</h1>
+                <p>
+                    JavaScript es un lenguaje de programación del lado del cliente que permite la creación de contenido 
+                    interactivo y dinámico en las páginas web. Fue desarrollado por Brendan Eich y es esencial para la 
+                    experiencia de usuario en la web moderna.
+                </p>
+                <img id="img" src="javascript_img2.jpg" >
+            </div>
+            <div class="Objective General común" id="Objective">
+                <h1>Objetivo y Función Principal</h1>
+                <p>
+                    El objetivo principal de JavaScript es permitir la interactividad en las páginas web. Puede modificar 
+                    el contenido de la página en respuesta a acciones del usuario, validar formularios, animar elementos 
+                    y mucho más.
+                </p>
+                <img id="img2" src="Javaimgpng.png">
+            </div>
+            <div class="Características General común" id="Car">
+                <h1>Características</h1>
+                <ul type="circle">
+                    <li><strong>Manipulación del DOM:</strong> Permite modificar la estructura de la página HTML.</li><br>
+                    <li><strong>Eventos:</strong> Puede responder a eventos como clics, movimientos del mouse, etc.</li><br>
+                    <li><strong>Funciones:</strong> Facilita la reutilización del código a través de funciones.</li><br>
+                    <li><strong>Compatibilidad:</strong> Funciona en todos los navegadores modernos sin necesidad de compilar.</li><br>
+                </ul>
+            </div>
+            <div class="Example común" id="Example">
+                <p class="JAVAT">JavaScript</p>
+                <P class="code">
+                    <span class="fun">function</span> <span class="fun1">toggleOptions<span class="paren">()</span></span> <span class="Key">{</span><br>
+                        <span class="fun var">var</span> <span class="celes">options</span> = <span class="celes">document</span>.<span class="fun1">getElementById</span><span class="variab">(</span><span class="UnID">'options'</span><span class="variab">)</span>;<br>
+                            <span class="variab nor">if (</span><span class="celes">options.</span><span class="fun">style</span>.<span class="celes">display</span> === <span class="UnID">'none'</span><span class="variab">) {</span><br>
+                                <span class="nor1"><span class="celes">options</span>.<span class="fun">style</span>.<span class="celes">display</span> = <span class="UnID">'block'</span></span>;<br>
+                            <span class="variab nor">} else {</span><br>
+                                <span class="nor1"><span class="celes">options</span>.<span class="fun">style</span>.<span class="celes">display</span> = <span class="UnID">'none'</span></span>;<br>
+          <span class="variab nor">}</span><br>
+                    <span class="Key">}</span>
+                </P>
+            </div>
+        </div>
+		<noscript>
+    </body>
+		</noscript>
+    <footer>
+        <section>
+            <a href="Principal.html">Volver al inicio</a><br><br>
+        </section>
+        <div class="footersection2">
+            <p>Copyright ©</p>
+            <p>Created by Orlando Manuel Deulofeuth Cuello</p>
+            <p>
+                <h3>Used languages:</h3>
+                <ul type="disc">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                </ul>
+            </p>
+        </div>
+    </footer>
+    <audio id="Music" autoplay loop>
+        <source src="s3.mp3" type="audio/mpeg">
+        <source src="s3.wav" type="audio/wav">
+    </audio>
+    <audio id="Transition">
+        <source src="FastTransition.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="TransitionOut">
+        <source src="FastTransitionOut.mp3" type="audio/mpeg">
+    </audio>
+</html>

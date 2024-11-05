@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Html</title>
+    <script src="Index.js"></script>
+    <link rel="stylesheet" href="HTML.css">
+    <link rel="icon" href="CyberLearning.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+</head>
+<body onload="PlayAudio()" onclick="PlayAudio()">
+    <div class="Mother-menu" id="LateralBar">
+        <div class="div-logo div-fast-access">
+            <a href="index.html">
+                <img src="LOGO MENÚ MADRE.png" class="image-menu-logo">
+            </a>
+            <button class="mother-menu-fast-access">
+                Acceso rápido
+            </button>
+            <div class="list-fast-access">
+                <a href="HTML.html"><img src="Viñeta.png" class="Viñeta">  Html</a>
+                <a href="CSS.html"><img src="Viñeta.png" class="Viñeta">  Css</a>
+                <a href="JAVASCRIPT.html"><img src="Viñeta.png" class="Viñeta">  JavaScript</a>
+                <a href="PHP.html"><img src="Viñeta.png" class="Viñeta">  Php</a>
+                <a href="Principal.html"><img src="Viñeta.png" class="Viñeta">  Principal</a>
+            </div>
+            <div class="div-music">
+                <button class="mother-menu-music">
+                    Música
+                </button>
+                <div class="controls">
+                    <audio id="Audio" controls loop>
+                        <source src="s1.wav" type="audio/wav">
+                    </audio>
+                    <audio id="Audio" controls loop>
+                        <source src="s2.wav" type="audio/wav">
+                    </audio>
+                    <audio id="Audio" controls loop>
+                        <source src="s3.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="MenúCon">
+        <img src="Menú.png" id="MenúIcon" onclick="Menú()">
+        <div class="Menú" id="Menú">
+            <div class="Botones LatBAR">
+                <a href="Formulario de ingreso.html" target="_blank">
+                    <button class="Acceder botón">Acceder<img src="Login in.png" width="30px" id="LoginIn"></button>
+                </a>
+            </div>
+            <div class="Botones2">
+                <button class="botón5" onclick="toggleOptions()">Acceso rápido</button>
+            </div>
+            <div class="ImageMenúDiv">
+                <img class="ImageMenú" src="CyberLearning JustLog.png">
+            </div>
+        </div>
+        <div id="options" class="element_options">
+            <a href="HTML.html">Html</a>
+            <a href="CSS.html">Css</a>
+            <a href="JAVASCRIPT.html">JavaScript</a>
+            <a href="PHP.html">Php</a>
+        </div>
+    </div>
+    <div class="FSCROLL" id="GOBACK"></div>
+    <div class="containerMain" id="container" onclick="HideOptions(); HideOptionsMenú()">
+        <article class="presentation">
+            <div class="PresentationTEXTFather">
+                <div class="PRESENTATIONIMG" id="ImgPre">
+                    <img src="HTMLicon.png" id="PresentationIMG" alt="Presentation Image">
+                </div>
+                <div class="presentationTEXT">
+                    <center>
+                        <h1>
+                                <span class="presentationColor"> HTML</span>
+                        </h1> 
+                    </center>
+                    <p>
+                        HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Se utiliza para estructurar y organizar contenido mediante etiquetas, definiendo elementos como encabezados, párrafos, imágenes, enlaces y más, permitiendo la visualización de sitios en navegadores.
+                    </p>
+                </div>
+            </div>
+        </article>
+        <article class="main" id="main">
+            <div class="TextWiki">
+                <h1>
+                    <span class="MainTittle">¿Qué es HTML?</span>
+                    <div class="DecorationWiki"></div>
+                </h1>
+                <p>
+                    HTML (HyperText Markup Language) es un lenguaje de marcado utilizado para estructurar y organizar el contenido de una página web. Funciona mediante un sistema de etiquetas que se colocan en el texto para definir cómo se debe presentar cada elemento en un navegador. Estas etiquetas especifican la jerarquía y formato de títulos, párrafos, imágenes, enlaces, listas y otros elementos, proporcionando la base visual y funcional de cualquier sitio web. Aunque HTML no es un lenguaje de programación, es esencial para el diseño de la estructura básica de una página, interactuando con CSS para darle estilo y con JavaScript para añadir funcionalidades dinámicas.
+                    <img src="HTMLcode.jpg" class="Image-code"><br><br>
+                </p>
+            </div>
+            <div class="TextMain">
+                <h1>
+                    <span class="MainTittle">Objetivo y función</span>
+                    <div class="DecorationTilteMain"></div>
+                </h1>
+                <p id="p1">
+                    El objetivo principal de HTML es proporcionar la estructura básica de una página web, organizando y definiendo la disposición del contenido que se mostrará en los navegadores. HTML establece la jerarquía y relación entre los diferentes elementos de una página, permitiendo que los navegadores interpreten y muestren correctamente textos, imágenes, tablas, formularios, videos y más. Cada componente de una página web, desde un título hasta un enlace, se marca usando etiquetas específicas, las cuales indican al navegador cómo deben ser presentados estos elementos.<br><br>
+
+                    HTML también permite definir la semántica del contenido, lo que facilita a los motores de búsqueda y tecnologías de asistencia, como lectores de pantalla, comprender el significado y la estructura de la información. Además de la organización del contenido, HTML establece la base para integrar otros lenguajes como CSS (Cascading Style Sheets), que se encarga del estilo y la presentación visual, y JavaScript, que añade interactividad y dinamismo.
+                </p>
+            </div>
+        </article>
+        <article class="Lenguajes">
+            <div class="HTML lenguajes">
+                <h1>
+                    Html
+                    <div class="DecorationHTML"></div>
+                </h1>
+                <p>
+                    HTML es el lenguaje estándar para crear y estructurar páginas web. Fue desarrollado por Tim Berners-Lee y es la columna vertebral de cualquier sitio web. HTML utiliza etiquetas
+                    (tags) para organizar el contenido en una página, definiendo elementos como encabezados, párrafos, enlaces, imágenes, listas, formularios, tablas y más. Estas etiquetas permiten a 
+                    los desarrolladores estructurar el contenido de manera lógica y accesible. HTML es esencial para la accesibilidad y el SEO, ya que define la semántica del contenido. Además, HTML 
+                    es compatible con todos los navegadores y dispositivos, lo que lo convierte en una tecnología fundamental para la web. A lo largo de los años, HTML ha evolucionado, incorporando 
+                    nuevas etiquetas y atributos que permiten crear sitios web más ricos y dinámicos.<br>
+                </p>
+            </div>
+            <div class="CSS lenguajes">
+                <h1>
+                    Css
+                    <div class="DecorationCSS"></div>
+                </h1>
+                <p>
+                    CSS es el lenguaje utilizado para describir la presentación de un documento HTML. Fue desarrollado por Håkon Wium Lie y Bert Bos y permite a los desarrolladores estilizar páginas web
+                    con colores, fuentes, diseño y más. CSS separa la estructura del contenido (HTML) de su presentación visual, facilitando el mantenimiento y la personalización de los sitios web. Con 
+                    CSS, los desarrolladores pueden controlar el diseño de múltiples páginas a la vez, aplicando estilos consistentes a través de hojas de estilo externas. Además, CSS ofrece características 
+                    avanzadas como animaciones, transiciones y media queries, que permiten crear diseños responsivos y adaptativos para diferentes dispositivos y tamaños de pantalla. Esto mejora significativamente 
+                    la experiencia del usuario y la estética del sitio web.
+                </p>
+            </div>
+            <div class="JAVASCRIPT lenguajes">
+                <h1>
+                    JavaScript
+                    <div class="DecorationJAVA"></div>
+                </h1>
+                <p>
+                    JavaScript es un lenguaje de programación que permite la creación de contenido interactivo y dinámico en las páginas web. Fue desarrollado por Brendan Eich
+                    y es esencial para la experiencia de usuario en la web moderna. JavaScript permite a los desarrolladores implementar funciones como validación de formularios, animaciones, 
+                    actualizaciones de contenido sin recargar la página, y más. Además, JavaScript se integra con otras tecnologías web como HTML y CSS, mejorando la interactividad y la 
+                    funcionalidad de los sitios web. Con el tiempo, JavaScript ha evolucionado, dando lugar a numerosas bibliotecas y frameworks que facilitan el desarrollo 
+                    de aplicaciones web complejas y escalables. Este lenguaje sigue siendo fundamental para la web moderna y la experiencia de usuario.
+                </p>
+            </div>
+            <div class="PHP lenguajes">
+                <h1>
+                    Php
+                    <div class="DecorationPHP"></div>
+                </h1>
+                <p>
+                    PHP es un lenguaje de programación del lado del servidor diseñado para el desarrollo web y fue creado por Rasmus Lerdorf. PHP se ejecuta en el servidor, procesando la lógica antes de enviar el contenido al navegador del usuario. Esto permite crear aplicaciones web interactivas y 
+                    dinámicas, como sistemas de gestión de contenido, tiendas en línea y foros. PHP se integra fácilmente con bases de datos como MySQL, facilitando la creación y gestión de sitios 
+                    web que requieren almacenamiento y recuperación de datos. Además, PHP es compatible con numerosos servidores web y es una opción popular debido a su flexibilidad, eficiencia y amplia 
+                    comunidad de desarrolladores. Su facilidad de uso y capacidad para integrarse con HTML lo hacen ideal para proyectos web de todos los tamaños.
+                </p>
+            </div>
+        </article>
+    </div>
+    <div class="Buttoms" onclick="HideOptions()">
+        <center>
+        <div class="BotonesGo1 Bot">
+            <a href="HTML.html">
+                <button class="Go">Ver más</button>
+            </a>
+        </div>
+        <div class="BotonesGo2 Bot">
+            <a href="CSS.html">
+                <button class="Go">Ver más</button>
+            </a>
+        </div>
+        <div class="BotonesGo3 Bot">
+            <a href="JAVASCRIPT.html">
+                <button class="Go">Ver más</button>
+            </a>
+        </div>
+        <div class="BotonesGo4 Bot">
+            <a href="PHP.html">
+                <button class="Go">Ver más</button>
+            </a>
+        </div>
+        </center>
+    </div>
+    <noscript>
+</body>
+    </noscript>
+<footer onclick="HideOptions()">
+    <section>
+        <a href="#GOBACK">Volver al inicio</a><br><br>
+    </section>
+    <div class="ForCenter">
+        <div class="footersection3 FF">
+            <h3>Redacción:</h3>
+            <p>
+                Ana Isabel Restrepo Espinosa<br>
+                Carlos Fernando Chavarría Chavarría<br>
+                Orlando Manuel Deulofeuth Cuello
+            </p>
+        </div>
+        <div class="footersection4 FF">
+            <h3>Lenguajes usados:</h3>
+            <p>
+                HTML<br>
+                CSS<br>
+                JavaScript
+            </p>
+        </div>
+        <div class="footersection1 FF">
+            <h3>Diseño:</h3>
+            <p>
+                Orlando Manuel Deulofeuth Cuello
+            </p>
+        </div>
+        <div class="footersection2 FF">
+            <h3>Construcción del código:</h3>
+            <p>
+                Orlando Manuel Deulofeuth Cuello
+            </p>
+        </div>
+    </div>
+    <div class="SenaPro">
+        <span>Proyecto del</span>
+        <img src="FOOTER logo.png" width="50px" id="SENALog" alt="SENA Logo">
+    </div>
+    <div class="CyberLearning">
+        <span>CyberLearning™</span>
+        <img src="CyberLearning JustLog.png" width="50px" id="CyberLearningLog" alt="JustBetweenUs Logo">
+    </div>
+    <div class="MoreInfoAboutUs"><a href="AboutUs.html">Información sobre el equipo</a></div>
+    <p id="Copyright">
+        © 2024 CyberLearning. All rights reserved
+    </p>
+</footer>
+</html>

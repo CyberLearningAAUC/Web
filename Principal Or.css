@@ -1,0 +1,199 @@
+body, html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(
+        90deg,
+        #0a0a0a,
+        rgb(32, 32, 32),
+        #0a0a0a
+    );
+    background-color: rgb(39, 39, 39);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+.First-image {
+    position: relative;
+    width: 100%;
+}
+
+.Desempeño {
+    width: 160px;
+    margin-top: 9px;
+}
+
+.Name {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 70%;
+    background-color:  #181818;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.Notas {
+    color: white;
+    background-color:  #181818;
+    padding: 15px;
+    width: 290px;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 27%;
+    transition: .7s ease;
+    line-height: 2;
+    transition-delay: .2s;
+}
+
+.ff {
+    background-color: blue;
+    margin-left: -15px;
+    padding-left: -15px;
+}
+
+.Notas ul li {
+    margin-left: -6px;
+    font-size: 13px;
+}
+
+.Notas h1 {
+    margin-left: 10px;
+}
+
+.To-move {
+    transition: .6s ease;
+}
+
+.Aprovado {
+    width: 20px;
+    float: right;
+    margin-right: 20px;
+}
+
+.Reprovado {
+    width: 20px;
+    float: right;
+    margin-right: 20px;
+}
+
+.Tittle {
+    background-color:  #141414;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px; 
+    position: fixed;
+    width: 100%;
+    height: 2.4%;
+}
+
+.Tittle-span {
+    margin-top: -20px;
+}
+
+.OrlandoP {
+    width: 360px;
+    height: 88%;
+    background-color:#202020;
+    overflow: hidden;
+    border-radius: 10px;
+    position: fixed;
+    scale: 0.90;
+    float: left;
+    left: 1.5%;
+    top: 8%;
+}
+
+.ErickP {
+    width: 360px;
+    height: 88%;
+    background-color:#202020;
+    overflow: hidden;
+    border-radius: 10px;
+    position: fixed;
+    scale: 0.90;
+    float: left;
+    left: 37%;
+    top: 8%;
+}
+
+.CarlosP {
+    width: 360px;
+    height: 88%;
+    background-color:#202020;
+    overflow: hidden;
+    border-radius: 10px;
+    position: fixed;
+    scale: 0.90;
+    float: left;
+    right: 1.5%;
+    top: 8%;
+}
+
+.ErickP:hover .Notas {
+    margin-top: 57%;
+}
+
+.OrlandoP:hover .Notas {
+    margin-top: 57%;
+}
+
+.CarlosP:hover .Notas {
+    margin-top: 57%;
+}
+
+.SernaP:hover .Notas {
+    margin-top: 57%;
+}
+
+.JhojanP:hover .Notas {
+    margin-top: 57%;
+}
+
+.ErickP:hover .To-move {
+    margin-top: -200%;
+}
+
+.OrlandoP:hover .To-move {
+    margin-top: -200%;
+}
+
+.CarlosP:hover .To-move {
+    margin-top: -200%;
+}
+
+.SernaP:hover .To-move {
+    margin-top: -200%;
+}
+
+.JhojanP:hover .To-move {
+    margin-top: -200%;
+}
+
+.Skills {
+    color: white;
+    background-color:  #181818;
+    padding: 15px;
+    width: 84%;
+    position: relative;
+    border-radius: 5px;
+    transition: .7s ease;
+    line-height: 2;
+    transition-delay: .2s;
+}
+
+.Skills img {
+    width: 110px;
+}
+
+#Skill2, #Skill3 {
+    margin-left: 30px;
+}

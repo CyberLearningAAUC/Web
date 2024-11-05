@@ -1,0 +1,554 @@
+body, html {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(
+        50deg,
+        rgb(6, 0, 114),
+        rgb(112, 8, 172),
+        rgb(255, 0, 170)
+    );
+    background-color: rgb(149, 0, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    border: none;
+    background-color: rgba(11, 11, 48, 0.99);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-image: linear-gradient(
+        180deg,
+        #c200c9,
+        rgb(98, 0, 255),
+        #0e46fd
+    );
+}
+
+/*--------------------MENÚ--------------------*/
+
+.Menú {
+    font-family: Arial, sans-serif;
+    background-color: rgba(17, 17, 75, 0.990);
+    top: -110px;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    transition: .6s;
+}
+
+/*-------------------BOTONES---------------------*/
+
+.botón {
+    width: 150px;
+    background-image: linear-gradient(
+    90deg,
+    #c200c9,
+    rgb(76, 0, 255),
+    #0e46fd
+    );
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    Color: White;
+    cursor: pointer;
+    transition: .4s;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.Botones .botón, .BTB, .botón5, .element_options, .botnon, .Wikir{
+    transform: scale(0.8);
+    margin-top: -35px;
+}
+
+.botón:hover {
+    transform: scale(0.9);
+}
+
+.botón:active {
+    transform: scale(0.8);
+}
+
+.Botones {
+    margin-top: 67px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botón5 {
+    margin-top: -63px;
+    position: relative;
+    display: flex;
+    left: 190px;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 27px;
+    background-color: none;    
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+.BTB {
+    margin-top: -66px;
+    position: relative;
+    display: flex;
+    left: 380px;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 27px;
+    background-color: none;    
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.Wikir {
+    margin-top: -67px;
+    position: relative;
+    display: flex;
+    left: 550px;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 27px;
+    background-color: none;    
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.Botones2, .Botones3, .Botones4 {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+/*--------------------CONCEPT--------------------*/
+.Concept {
+    color: White;
+    border: none;
+    width: 850px;
+    background-color:  rgba(15, 15, 60, 0.982);
+    border-radius: 13px;
+    padding: 20px 0;
+    margin-bottom: 100px;
+    text-align: justify;
+    box-shadow: 0 0 20px rgb(45, 45, 45);
+    transition: .5s ease;
+    margin: 0 auto;
+    margin-top: -345px;
+}
+
+.Concept:hover {
+    transform: 
+        translateY(-3%)
+        perspective(280px)
+        rotateX(1deg)
+    ;
+}
+
+#main.activeN {
+    transform: 
+        translateY(8%)
+        scale(1.16)
+    ;
+}
+
+.Concept h1, .Concept p {
+    margin: 20px;
+}   
+
+.Concept p {
+    margin-right: 40px;
+    margin-left: 40px;
+    line-height: 1.5;
+}
+
+.Concept h1 {
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}  
+
+.General {
+    color: White;
+    border: none;
+    width: 600px;
+    background-color:  rgba(15, 15, 60, 0.982);
+    border-radius: 13px;
+    padding: 20px 0;
+    margin-bottom: 100px;
+    text-align: justify;
+    box-shadow: 0 0 20px rgb(45, 45, 45);
+    transition: .5s ease;
+    margin: 0 auto;
+    margin-top: 140px;
+    line-height: 1.5;
+
+}
+
+.General:hover {
+    transform: 
+        translateY(-4%)
+        perspective(280px)
+        rotateX(1deg)
+    ;
+}
+
+.General p {
+    margin-right: 40px;
+    margin-left: 40px;
+    line-height: 1.5;
+}   
+
+.General h1 {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}  
+
+.Características ul li {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.Características h1 {
+    margin-left: 40px;
+}
+
+.Example {
+    font-family: 'Courier New', Courier, monospace;
+    color: White;
+    border: none;
+    border-top: 35px solid rgb(49, 49, 49);
+    width: 700px;
+    background-color:  rgba(4, 4, 4, 0.982);
+    border-radius: 13px;
+    padding: 20px 0;
+    margin-bottom: 100px;
+    text-align: justify;
+    box-shadow: 0 0 20px rgb(45, 45, 45);
+    transition: .6s;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: -150px;
+}
+
+.Example:hover {
+    transform: scale(1.1);
+}
+
+.Example p {
+    margin-top: -10px;
+    margin-left: 20px;
+}   
+
+.Example.activeN {
+    transform: 
+        scale(1.56)
+        translateY(13%)
+    ;
+}
+
+.Concept.activeN {
+    transform: 
+        translateY(8%)
+        scale(1.16)
+    ;
+}
+
+.Objective.activeN {
+    transform: 
+        translateY(8%)
+        scale(1.16)
+    ;
+}
+
+.Características.activeN{
+    transform: 
+        translateY(8%)
+        scale(1.16)
+    ;
+}
+
+.común:hover {
+    cursor: pointer;
+}
+
+
+/*--------------------IMÁHENES--------------------*/
+#img {
+    width: 850px;
+    margin-bottom: 30px;
+    transition: .4s;
+    z-index: 1000;
+}
+
+#img2 {
+    width: 600px;
+    transition: .4s;
+    margin-bottom: 40px;
+}
+
+/*--------------------FOOTER--------------------*/
+footer {
+    background-color: rgba(7, 7, 37, 0.982) ;
+    color: white;
+    font-family: Arial;
+    padding: 30px;
+}
+
+.footersection2 {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+footer section {
+    float: right;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+footer section a {
+    text-align: left;
+    float: right;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(78, 48, 119);
+    transition: .5s
+}
+
+footer section a:hover {
+    color: rgb(150, 98, 223);
+}
+
+footer ul li {
+    margin-right: 60px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+/*----------------------------------------*/
+
+/*--------------------OTHERS--------------------*/
+.father{
+    color: #d7ba7d;
+    margin-left: 40px;
+}
+.keys{
+    color: #ffd700;
+}
+
+.keysC{
+    color: rgb(255, 221, 68);
+    margin-left: 40px;
+}
+
+.SubT{
+    color: #9cdcfe;
+    margin-left: 67px;
+}
+
+.TextOnly {
+    color: #ce9178;
+}
+
+.CSST {
+    position: relative;
+    top: -34px;
+    font-size: 16px;
+}
+
+.Pt {
+    color: #b5cea8;
+}
+
+.containerMain {
+    transform: scale(0.7);
+}
+
+.MenúCon .Menú {
+    Height: 150px;
+}
+
+.element_options {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: absolute;
+    background-color: rgba(17, 17, 75, 0.990);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1;
+    position: relative;
+    margin-top: -30px;
+    left: 200px;
+    width: 150px;
+    font-size: 17px;
+}
+
+.element_options a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.element_options a:hover {
+    background-color: rgba(14, 14, 66, 0.982);   
+    border-radius: 5px;
+}
+
+.late {
+    font-family: Arial, sans-serif;
+    background-color: rgba(17, 17, 75, 0.990);
+    top: 100px;
+    padding: 20px;
+    width: 200px;
+    position: fixed;
+    z-index: 2;
+    transition: .6s ease-in-out;
+    border-radius: 10px;
+    left: -200px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.late:hover {
+    left: -20px;
+}
+
+.botnon {
+    width: 120px;
+    background-image: linear-gradient(
+    90deg,
+    #c200c9,
+    rgb(98, 0, 255),
+    #0e46fd
+    );
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    Color: White;
+    cursor: pointer;
+    transition: .4s;
+    margin: 0;
+}
+
+.botnon:hover {
+    transform: scale(1.1);
+}
+
+.botnon:active {
+    transform: scale(0.9);
+}
+
+#VOLVESHION{
+    position: relative;
+    scale: 0.3;
+    margin-bottom: 0px;
+    margin-top: -70px;
+    left: 170px;
+}
+
+.late .inline1 {
+    transition: .5s ease-in-out;
+    rotate: 180deg;
+}
+
+.late:hover .inline1 {
+    transform:
+    rotate(180deg)
+    ;
+}
+
+/*--------------Barra Lateral--------------*/
+
+.LateralBAR {
+    height: 430px;
+    width: 45px;
+    position: fixed;
+    padding: 10px 5px;
+    background-color: rgba(17, 17, 75, 0.990);
+    z-index: 2;
+    left: -7px;
+    top: 25%;
+    clip-path: polygon(0% 100%, 100% 92%, 100% 6%, 0% 0%, 0% 0%);
+    scale: 0.8;
+}
+
+.imgLatBar {
+    margin-bottom: 20px;
+    width: 20px;
+    height: auto;
+    display: block;
+    transition: .4s ease-out;
+}
+
+.imgLatBar:hover {
+    transform: scale(1.3);
+}
+
+.Reload {
+    margin-top: 30px;
+    transition: .8s ease-out;
+}
+
+.Reload:hover {
+    transform: 
+        rotate(-380deg)
+    ;
+}
+
+.Pausa1 {
+    width: 28px;
+    transition: .5s ease-out;
+}
+
+.Pausa2 {
+    width: 15px;
+}
+
+.line1 {
+    height: 2px;
+    width: 25px;
+    background-color: rgb(61, 61, 61);
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.ChangeVolumen {
+    width: 30px;
+}
+
+.imgLatBar {
+    margin-top: 30px;
+}
