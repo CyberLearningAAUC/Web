@@ -762,3 +762,8 @@ footer .CyberLearning {
         transform: translateY(0px);
     }
 }
+
+#Last {
+    margin-top: 160px;
+    color: white;
+}
