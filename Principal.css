@@ -278,7 +278,6 @@ body, html {
 
 .Text-from-tittle {
     margin-right: -410px;
-    margin-top: 220px;
     float: right;
     width: 510px;
     text-align: center;
@@ -289,6 +288,7 @@ body, html {
     backdrop-filter: blur(16px);
     padding: 10px;
     border-radius: 10px;
+    margin-top: 220px;
 }
 
 .Lan-FA {
@@ -766,6 +766,19 @@ footer .CyberLearning {
 #Last {
     margin-top: 160px;
     color: white;
+}
+
+.Menú {
+    transform: translateY(-80px);
+    opacity: 0;
+    animation: Onload3 .5s forwards ease;
+}
+
+@keyframes  Onload3 {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 /*-----------------*/
