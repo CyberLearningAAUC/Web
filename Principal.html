@@ -13,9 +13,42 @@
 </head>
 <body onload="PlayAudio()">
     <div id="GOBACK"></div>
+    <div class="Mother-menu" id="LateralBar">
+        <div class="div-logo div-fast-access">
+            <a href="index.html">
+                <img src="LOGO MENÚ MADRE.png" class="image-menu-logo">
+            </a>
+            <button class="mother-menu-fast-access-2">
+                Acceso rápido
+            </button>
+            <div class="list-fast-access">
+                <a href="HTML.html"><img src="Viñeta.png" class="Viñeta">  Html</a>
+                <a href="CSS.html"><img src="Viñeta.png" class="Viñeta">  Css</a>
+                <a href="JAVASCRIPT.html"><img src="Viñeta.png" class="Viñeta">  JavaScript</a>
+                <a href="PHP.html"><img src="Viñeta.png" class="Viñeta">  Php</a>
+                <a href="Principal.html"><img src="Viñeta.png" class="Viñeta">  Principal</a>
+            </div>
+            <div class="div-music">
+                <button class="mother-menu-music">
+                    Música
+                </button>
+                <div class="controls">
+                    <audio id="Audio" controls loop>
+                        <source src="s1.wav" type="audio/wav">
+                    </audio>
+                    <audio id="Audio" controls loop>
+                        <source src="s2.wav" type="audio/wav">
+                    </audio>
+                    <audio id="Audio" controls loop>
+                        <source src="s3.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="First-Presentation">
         <div class="Menú">
-            <img src="CyberLearning Lateral.png" id="Log-Menú">
+            <img src="CyberLearning Lateral.png" id="Log-Menú" onclick="Menú()">
             <div class="mother-menu-fast-access" onclick="toggleOptions()">
                 <button id="Fast-Access" onclick="toggleOptions()">
                     Acceso rápido
@@ -38,7 +71,7 @@
             <a href="JAVASCRIPT.html">JavaScript</a>
             <a href="#" id="Php-FS">Php</a>
         </div>
-        <div class="presentation" onclick="HideOptions()">
+        <div class="presentation" onclick="HideOptions(); HideOptionsMenú()">
             <div class="First-Text-P">
                 Bienvenido a <span class="CL-Blue">CyberLearning,</span> una plataforma de aprendizaje Online
             </div>
@@ -70,7 +103,7 @@
             <center>
         </div>
     </div>
-    <div class="Second-Presentation" onclick="HideOptions()">
+    <div class="Second-Presentation" onclick="HideOptions(); HideOptionsMenú()">
         <div class="tittle">
             <h1>Aprenda a <span class="CL-Blue">programar</span></h1>
         </div>
@@ -93,7 +126,7 @@
         </a>
         <div id="Last"></div>
     </div>
-    <div class="Tercer-Presentation" onclick="HideOptions()">
+    <div class="Tercer-Presentation" onclick="HideOptions(); HideOptionsMenú()">
         <center><div class="Tittle-2">Comienza a aprender</div><br><div class="tittle-3">Cursos Principales</div></center>
         <center>
         <article class="Lenguajes">
