@@ -56,21 +56,21 @@
 
             .botón {
                 width: 110px;
-                background-color: transparent;
                 padding: 15px 20px;
-                border: 2px solid rgba(255, 255, 255, 0.096);
+                border: 1px solid rgba(255, 255, 255, 0.096);
                 border-radius: 5px;
                 cursor: pointer;
                 transition: transform .4s;
                 font-size: 16px;
                 scale: 1.3;
                 Color: White;
-                background-color:  #0f0f0f;
+                background-color:  #0f0f0f2d;
                 margin-bottom: 35%;
                 position: relative;
                 margin-top: 22%;
                 overflow: hidden;
                 padding: 16px;
+                
             }
 
             .botón:hover::before{
@@ -134,6 +134,7 @@
                     translateY(90px)
                 ;
                 animation: fadeInUp 1.7s forwards;
+                margin-bottom: 15px;
             }
 
             .ImageEnter2  img{
@@ -149,8 +150,8 @@
                 transform: 
                     translateY(100px)
                 ;
-                animation: fadeInUp 2s forwards;
-                animation-delay: 2.5s;
+                animation: fadeInUp 2.5s forwards;
+                animation-delay: 3s;
             }
             
             .botón:hover {
@@ -167,15 +168,19 @@
                     transform: translateY(0);
                 }
             }
+
+            .imgLogo {
+                width: 130px;
+            }
         </style>
     </head>
-    <body onload="PlayAudio()">
+    <body onload="PlayAudio()" onclick="PlayAudio()">
         <div class="FSCROLL" id="GOBACK"></div>
         <div class="ImageEnter1 TheSameClass">
             <img src="CyberLearning JustLog.png" class="imgLogo">
         </div>
         <div class="ImageEnter2 TheSameClass">
-            <img src="CyberLearning Just Leters.png" class="imgLogo">
+            <img src="CyberLearning Just Leters.png" class="imgLogo2">
         </div>        
         <div class="ContainerE TheSameClass">
             <a href="Principal.html"><button id="load" class="botón">Comenzar</button></a>

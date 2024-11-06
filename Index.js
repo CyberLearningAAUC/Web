@@ -18,19 +18,19 @@ function TransitionSoundOut(event) {
 
 function HideOptions() {
     var puto = document.getElementById('options');
-        if (puto.style.marginTop === '68px') {
-            puto.style.marginTop = '-80px';
+        if (puto.style.display === 'block') {
+            puto.style.display = 'none';
         } else {
-            
+            puto.style.display = 'none';
         }
 }
 
 function toggleOptions() {
     var options = document.getElementById('options');
-        if (options.style.marginTop === '-80px') {
-            options.style.marginTop = '68px';
+        if (options.style.display === 'none') {
+            options.style.display = 'block';
         } else {
-            options.style.marginTop = '68px';
+            options.style.display = 'block';
         }
 }
 

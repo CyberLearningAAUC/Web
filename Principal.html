@@ -11,12 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
 </head>
-<body onload="PlayAudio()" onclick="PlayAudio()">
+<body onload="PlayAudio()">
+    
     <div class="First-Presentation">
         <div class="Menú">
             <img src="CyberLearning Lateral.png" id="Log-Menú">
-            <div class="mother-menu-fast-access">
-                <button id="Fast-Access">
+            <div class="mother-menu-fast-access" onclick="toggleOptions()">
+                <button id="Fast-Access" onclick="toggleOptions()">
                     Acceso rápido
                 </button>
                 <img id="Flecha-List" src="VOLVERWOF.png">
@@ -31,37 +32,45 @@
                 </button>
             </a>
         </div>
-        <div class="First-Text-P">
-            Bienvenido a <span class="CL-Blue">CyberLearning,</span> una plataforma de aprendizaje Online
+        <div id="options" class="element_options">
+            <a href="HTML.html">Html</a>
+            <a href="CSS.html">Css</a>
+            <a href="JAVASCRIPT.html">JavaScript</a>
+            <a href="#" id="Php-FS">Php</a>
         </div>
-        <center>
-            <div class="Search-Bar">
-                <img src="Search-Log.png" class="Search-Log-Img">
-                <input type="text" id="Search-2" placeholder="Busca uno de nuestros cursos"/>
+        <div class="presentation" onclick="HideOptions()">
+            <div class="First-Text-P">
+                Bienvenido a <span class="CL-Blue">CyberLearning,</span> una plataforma de aprendizaje Online
             </div>
-            <div class="Cursos-Conjunto">
-                <a href="HTML.html">
-                <button class="HTML-Con Len-Con">
-                    <img src="HTML Log.png" class="Log-HTML">
-                </button>
-                </a>
-                <a href="CSS.html">
-                <button class="CSS-Con Len-Con">
-                    <img src="CSS Log.png" class="Log-CSS">
-                </button>
-                </a>
-                <a href="JAVASCRIPT.html">
-                <button class="JavaScript-Con Len-Con-1">
-                    <img src="JavaScript Log.png" class="Log-JAVASCRIPT">
-                </button>
-                </a>
-                <button class="PHP-Con Len-Con-1">
-                    <img src="PHP Log.png" class="Log-PHP">
-                </button>
-            </div>
-        <center>
+            <center>
+                <div class="Search-Bar">
+                    <img src="Search-Log.png" class="Search-Log-Img">
+                    <input type="text" id="Search-2" placeholder="Busca uno de nuestros cursos"/>
+                </div>
+                <div class="Cursos-Conjunto">
+                    <a href="HTML.html">
+                    <button class="HTML-Con Len-Con">
+                        <img src="HTML Log.png" class="Log-HTML">
+                    </button>
+                    </a>
+                    <a href="CSS.html">
+                    <button class="CSS-Con Len-Con">
+                        <img src="CSS Log.png" class="Log-CSS">
+                    </button>
+                    </a>
+                    <a href="JAVASCRIPT.html">
+                    <button class="JavaScript-Con Len-Con-1">
+                        <img src="JavaScript Log.png" class="Log-JAVASCRIPT">
+                    </button>
+                    </a>
+                    <button class="PHP-Con Len-Con-1">
+                        <img src="PHP Log.png" class="Log-PHP">
+                    </button>
+                </div>
+            <center>
+        </div>
     </div>
-    <div class="Second-Presentation">
+    <div class="Second-Presentation" onclick="HideOptions()">
         <div class="tittle">
             <h1>Aprenda a <span class="CL-Blue">programar</span></h1>
         </div>
@@ -83,7 +92,7 @@
             </button>
         </a>
     </div>
-    <div class="Tercer-Presentation">
+    <div class="Tercer-Presentation" onclick="HideOptions()">
         <center><div class="Tittle-2" id="Last">Comienza a aprender</div><br><div class="tittle-3">Cursos Principales</div></center>
         <center>
         <article class="Lenguajes">
