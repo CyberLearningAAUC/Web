@@ -1,3 +1,4 @@
+
 function PlayAudio() {
     document.getElementById("Music").play();
 }
@@ -36,14 +37,6 @@ function toggleOptions() {
 
 document.addEventListener("DOMContentLoaded", function () {
     var toggleButton = document.getElementById("Example");
-
-    toggleButton.addEventListener("click", function () {
-        this.classList.toggle("activeN");
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    var toggleButton = document.getElementById("Car");
 
     toggleButton.addEventListener("click", function () {
         this.classList.toggle("activeN");
